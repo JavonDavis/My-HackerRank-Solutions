@@ -1,4 +1,4 @@
-package com.javon.algorithms.implementation.utopiantree;
+package com.javon.algorithms.implementation.easy.utopiantree;
 
 import java.io.BufferedReader;
 import java.io.IOException;

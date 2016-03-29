@@ -1,9 +1,8 @@
-package com.javon.algorithms.implementation.servicelane;
+package com.javon.algorithms.implementation.easy.servicelane;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.SyncFailedException;
 
 /**
  * Created by javon on 28/03/2016.

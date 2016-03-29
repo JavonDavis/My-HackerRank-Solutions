@@ -1,4 +1,4 @@
-package com.javon.algorithms.implementation.sherlockbeast;
+package com.javon.algorithms.implementation.easy.sherlockbeast;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.javon.algorithms.implementation.angryprofessor;
+package com.javon.algorithms.implementation.easy.angryprofessor;
 
 import java.io.BufferedReader;
 import java.io.IOException;

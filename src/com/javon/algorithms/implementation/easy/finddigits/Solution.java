@@ -1,4 +1,4 @@
-package com.javon.algorithms.implementation.finddigits;
+package com.javon.algorithms.implementation.easy.finddigits;
 
 import java.io.BufferedReader;
 import java.io.IOException;

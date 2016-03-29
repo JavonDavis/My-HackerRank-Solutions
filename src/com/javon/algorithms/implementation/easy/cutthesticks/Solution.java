@@ -1,4 +1,4 @@
-package com.javon.algorithms.implementation.cutthesticks;
+package com.javon.algorithms.implementation.easy.cutthesticks;
 
 import java.io.BufferedReader;
 import java.io.IOException;

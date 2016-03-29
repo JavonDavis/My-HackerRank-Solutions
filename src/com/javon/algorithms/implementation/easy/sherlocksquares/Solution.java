@@ -1,4 +1,4 @@
-package com.javon.algorithms.implementation.sherlocksquares;
+package com.javon.algorithms.implementation.easy.sherlocksquares;
 
 import java.io.BufferedReader;
 import java.io.IOException;
