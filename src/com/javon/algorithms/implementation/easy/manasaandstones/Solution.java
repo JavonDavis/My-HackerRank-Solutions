@@ -17,24 +17,27 @@ public class Solution {
 
         for (int i = 0; i < numCases; i++) {
             int n = Integer.parseInt(readLine().trim());
-            int a = Integer.parseInt(readLine().trim());
-            int b = Integer.parseInt(readLine().trim());
+            int num1 = Integer.parseInt(readLine().trim());
+            int num2 = Integer.parseInt(readLine().trim());
 
-            int maximum = b*n-1;
+            int a = Math.min(num1,num2);
+            int b = Math.max(num1,num2);
+
+            int maximum = b*(n-1);
             int difference = Math.max(a,b)- Math.min(a,b);
 
-            int start = a*n-1;
+            int start = a*(n-1);
             if(a == b)
             {
-                System.out.print(a);
+                System.out.println(start);
             }
-            while (start <=maximum)
-            {
-                System.out.print(start+" ");
-                start += difference;
+            else {
+                while (start <= maximum) {
+                    System.out.print(start + " ");
+                    start += difference;
+                }
+                System.out.println();
             }
-            System.out.println();
-
         }
     }
 
