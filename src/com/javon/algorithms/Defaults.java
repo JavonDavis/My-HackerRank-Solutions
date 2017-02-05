@@ -25,7 +25,7 @@ public class Defaults {
     private long[] nextLongArray(int n) throws IOException {
         long[] res = new long[n];
         for (int i = 0; i < n; i++) {
-            res[i] = nextInt();
+            res[i] = nextLong();
         }
         return res;
     }
